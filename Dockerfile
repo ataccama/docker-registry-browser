@@ -1,6 +1,6 @@
 FROM ruby:2.5.1-alpine
 
-MAINTAINER Klaus Meyer <spam@klaus-meyer.net>
+MAINTAINER Iakov Markov <iakov.markov@ataccama.com>
 
 ENV PORT 8080
 ENV RAILS_ENV production

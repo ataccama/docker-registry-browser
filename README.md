@@ -50,6 +50,9 @@ The configuration is done by environment variables.
 | `BASIC_AUTH_PASSWORD`  | no       | String | Password for basic-auth against registry<br>**Example**: `supersecretpassw0rd`                 |
 | `ENABLE_DELETE_IMAGES` | no       | Bool   | Allow deletion of tags (default `false`)<br>**Example**: `true`                                |
 | `PUBLIC_REGISTRY_URL`  | no       | String | The public URL to the Docker Registry to do docker pull<br>**Example**: `your-registry:5000`   |
+| `SSL_CA_PATH`          | no       | String | Path to Certificate Authority file<br>**Example**: `/app/cert/ca.crt`						  |
+| `SSL_CERT_PATH`        | no       | String | Path to Client Certificate file<br>**Example**: `/app/cert/client.cert`						  |
+| `SSL_KEY_PATH`         | no       | String | Path to Client Secret Key file<br>**Example**: `/app/cert/client.key`						  |
 
 You can also set `BASIC_AUTH_USER` and `BASIC_AUTH_PASSWORD` as [Docker Swarm secrets](https://docs.docker.com/engine/swarm/secrets/).
 
